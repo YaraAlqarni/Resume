@@ -1,0 +1,127 @@
+/* Yara Saad Alqarni 2211380 */
+body {
+    font-family: 'Arial', sans-serif; 
+    padding: 20px;
+    background-color: #f9f9f9; 
+    color: #2c3e50; 
+}
+
+header {
+    background: linear-gradient(to right, #a8e6cf, #dcedc1); 
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #388e3c; 
+}
+
+section {
+    background: #e8f5e9; 
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.progress-bar {
+    background-color: #66bb6a; 
+    color: #fff; 
+}
+
+
+
+.btn-primary {
+    background-color: #388e3c; 
+    border: solid; 
+    color: #fff; 
+}
+
+
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+
+
+.icons a {
+    color: #1b5e20; 
+    margin-left: 3px;
+    font-size: 1.6em;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: #2e7d32; 
+}
+
+
+
+@media (max-width: 992px) {
+    header {
+        padding: 15px;
+    }
+    h2 {
+        font-size: 2.2em;
+    }
+    h3 {
+        font-size: 1.6em;
+    }
+    section {
+        padding: 10px;
+    }
+    p, h4 {
+        font-size: 1em;
+    }
+ 
+    .icons a {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    section {
+        margin: 5px 0;
+    }
+
+    .icons a {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+    section {
+        padding: 10px;
+    }
+
+    .icons a {
+        font-size: 1.2em;
+    }
+}
